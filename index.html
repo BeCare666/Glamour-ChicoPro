@@ -285,7 +285,8 @@
 
 			<section class="ds ms intro_section page_mainslider">
 				<div class="owl-carousel page_maincarousel" data-margin="0" data-nav="true" data-loop="true" data-items="4">
-
+					<!----page_maincarousel cette classe est utilisée dans le fichier main à la ligne 3630 pour 
+						ajuster les deux flêches -->
 					<div>
 						<div class="vertical-item maincarousel-item content-absolute cs">
 							<div class="item-media item-mediaImg">
@@ -1949,8 +1950,9 @@
 
 									<button type="submit" id="contact_form_submitID" name="contact_submit" class="theme_button color1 bottommargin_0">Send</button>
 									<button type="reset" id="contact_form_clear" name="contact_clear" class="theme_button inverse bottommargin_0">Clear</button>
-								</div>
-
+								</div><br>
+								<span id="smsSuccess" style="color: darkgreen; display: none;">&nbsp;&nbsp;&nbsp; Message envoyé avec succès !</span><br>
+								<span id="smsErrors" style="color: red; display: none;">&nbsp;&nbsp;&nbsp; Votre message n'a pas éte envoyé !</span>
 							</form>
 						</div>
 					</div>

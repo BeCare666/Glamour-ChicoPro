@@ -3627,7 +3627,7 @@ a.logo.vertical_logo img {
 	position: absolute;
 	top: 50%;
 	margin-top: -18px;
-	right: 13px;
+	right: 26px;
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 27px !important;
@@ -8513,7 +8513,7 @@ h2 .muellerhoff {
 	font-family: 'rt-icons-2';
 	font-size: 40px !important;
 	line-height: 24px;
-	content: ">";
+	content: '>';
 	color: #1a1a1a;
 	-webkit-transition: all 0.2s ease-in-out 0s;
 	transition: all 0.2s ease-in-out 0s;
