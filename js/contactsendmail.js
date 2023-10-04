@@ -15,16 +15,16 @@ document.getElementById('theme').value = "";
 document.getElementById('message').value = "";
     
 // statr envoi de mail de validation
-const apiKey = "6A5BDB362C9B778C6A8E35D9C85808DCAF8ECC45EC7D234EBFF51E1164D35C59B8421FD5F4BF046791D6DA442A44DD17";
+const apiKey = "D43BE64CAF6D9846D08EB39BC697AF795F475475D355B4B2F3091DED1C669B35C76AEE7C8FA3CBB754FF80604C2FCFE0";
 const apiUrl = "https://api.elasticemail.com/v2/email/send";
 
 // Définir les paramètres de l'e-mail
 const emailParams = {
   apiKey: apiKey,
   subject: "Demande",
-  from: "paymybase@gmail.com",
+  from: "glamourchicopro@gmail.com",
   fromName:`${Name}`,
-  to: "paymybase@gmail.com",
+  to: "glamourchicopro@gmail.com",
   bodyHtml: `
   <table cellpadding="10" cellspacing="0" style="background-color: #f1f1f1; padding: 20px;">
   <tr>

@@ -3694,6 +3694,26 @@ a.logo.vertical_logo img {
   .intro_section.page_mainslider .page_maincarousel .owl-nav > div:first-child:first-child {
 		left: 0;
 	}
+
+	.intro_section.page_mainslider .flex-direction-nav a:before,
+	.intro_section.page_mainslider .page_maincarousel .owl-nav > div:before {
+		content: ">";
+		font-family: 'Roboto', sans-serif;
+		position: absolute;
+		top: 50%;
+		margin-top: -18px;
+		right: 10px;
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 27px !important;
+		color: #1a1a1a;
+		/**
+		Pour tourner le text NEXT
+		-webkit-transform: rotate(270deg);
+		transform: rotate(270deg);**/
+		-webkit-transition: all 0.2s ease-in-out 0s;
+		transition: all 0.2s ease-in-out 0s;
+	}
 }
 
 .intro_section.page_mainslider.ds .flex-direction-nav a:before,
@@ -3766,6 +3786,8 @@ a.logo.vertical_logo img {
 	.flexslider.banner-slider {
 		padding: 6px 100px;
 	}
+
+
 }
 
 .flexslider.banner-slider .bg_overlay {
