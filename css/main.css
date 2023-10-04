@@ -199,6 +199,10 @@
     padding: 20px;
 }
 
+#politiqueId {
+    padding: 150px;
+}
+
 #politiqueId h1 {
     font-size: 28px;
     text-align: center !important;
@@ -244,6 +248,9 @@
     #politiqueId address {
         font-size: 14px;
     }
+	#politiqueId {
+		padding: 15px;
+	}
 }
 
 @keyframes breathe {

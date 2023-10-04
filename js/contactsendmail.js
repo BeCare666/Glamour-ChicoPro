@@ -64,9 +64,11 @@ const emailParams = {
         .then((data) => {
           console.log(data); // Afficher la réponse de l'API ElasticEmail
           if (data.success) {
-            console.log("E-mail envoyé avec succès.");
+            document.getElementById('smsSuccess').style.display = "block"
+            //console.log("E-mail envoyé avec succès.");
           } else {
-           console.error("Erreur lors de l'envoi de l'e-mail.");
+            document.getElementById('smsErrors').style.display = "block"
+           //console.error("Erreur lors de l'envoi de l'e-mail.");
           }
         })
         .catch((error) => {
